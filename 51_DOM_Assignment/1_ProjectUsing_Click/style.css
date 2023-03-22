@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-heading{
+    padding: 20px;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    /* border: 2px solid black; */
+}
+
+.sub-heading{
+    text-align: center;
+}
+
+#button-section{
+    width: 350px;
+    height: 47px;
+    /* border: 2px solid black; */
+    margin-left: 120px;
+}
+
+#decrementBtn{
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+}
+
+#displayValue{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+}
+
+#incrementBtn{
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+}
+#resetBtn{
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 200px;
+}
